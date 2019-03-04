@@ -16,8 +16,7 @@ int main (void)
     {
         t = millis();
         
-        for (uint16_t i=0 ; i<(SCREEN_WIDTH*SCREEN_ROWS) ; i++)
-            buffer[i] = TITLE[i];
+        draw_image(&TITLE, 0, 0);
         
         draw();
         
