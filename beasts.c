@@ -3,6 +3,7 @@
 void battle_beasts(void)
 {
     uint32_t t = 0;
+	uint32_t gen_timer = 0;
 	
 	uint8_t player_beast[8] = {
 		0x00,
@@ -15,11 +16,16 @@ void battle_beasts(void)
 		0x00,
 	};
 	
-	generate_beast(player_beast);
-    
     for(ever)
     {
         t = millis();
+		
+		if (gen_timer <= t)
+		{
+			gen_timer = t+2000;
+			
+			generate_beast(player_beast);
+		}
         
         clear_buffer();
 		
