@@ -15,4 +15,8 @@ static const __flash uint8_t MASKS[] = {
 
 void battle_beasts(void);
 
+void generate_beast(uint8_t* beast);
+
+void draw_beast(uint8_t* beast);
+
 #endif
