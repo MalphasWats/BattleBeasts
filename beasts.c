@@ -47,7 +47,7 @@ void generate_beast(uint8_t* beast)
             if (x < 4)
                 beast[x] |= (rng() & 1) << y;
             else
-                if (beast[x] & (1 << (6-y)))
+                if (beast[6-x] & (1 << y))
                     beast[x] |= 1 << y;
         }
     }
