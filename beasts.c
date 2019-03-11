@@ -47,36 +47,38 @@ void generate_beast(uint8_t* beast)
             if (x < 4)
                 beast[x] |= (rng() & 1) << y;
             else
-                beast[x] |= (beast[6-x] & (1 << y)) << y;
+                if (beast[6-x] & (1 << y))
+                    beast[x] |= 1 << y;
         }
     }
 }
 
 void draw_beast(uint8_t* beast)
 {
-	// Resize beast (x2, 16x16)
-	//TODO: this can only double 8x8
-	uint8_t resize_buff[32];
-	
-	uint8_t x2, y2;
-	uint16_t temp = 0;
+    // Resize beast (x2, 16x16)
+    //TODO: this can only double 8x8
+    uint8_t resize_buff[32];
+    
+    uint8_t x2, y2;
+    uint16_t temp;
     for (uint8_t i=0 ; i<16 ; i++) 
     {
+        temp = 0;
         for (uint8_t j=0 ; j<16 ; j++) 
         {
-            x2 = (uint8_t)((j*32769)>>16) ;
-            y2 = (uint8_t)((i*32769)>>16) ;
-            
-			temp |= (beast[x2] & (1 << y2)) << j;
+            x2 = (uint8_t)((i*32769)>>16) ;
+            y2 = (uint8_t)((j*32769)>>16) ;
+            if (beast[x2] & (1 << y2))
+                temp |= 1 << j;
         }
-		//re-assemble temp into resize_buff
-		resize_buff[i] = temp>>8;
-		resize_buff[i+16] = temp & 0x0f;
+        //re-assemble temp into resize_buff
+        resize_buff[i] = temp & 0x00ff;
+        resize_buff[i+16] = temp>>8;
     }
-	
+    
     for(uint8_t i=0 ; i<16 ; i++)
-	{
+    {
         buffer[ (5*SCREEN_WIDTH+(2*8)) + i ] = resize_buff[i];
-		buffer[ (6*SCREEN_WIDTH+(2*8)) + i ] = resize_buff[i+16];
-	}
+        buffer[ (6*SCREEN_WIDTH+(2*8)) + i ] = resize_buff[i+16];
+    }
 }
