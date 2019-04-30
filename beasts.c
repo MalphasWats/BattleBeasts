@@ -71,9 +71,14 @@ void scale_beast(uint8_t* beast, uint8_t* return_buffer, uint8_t scale_factor)
 
     uint8_t x2, y2;
 
-    for (uint8_t x=0 ; x<w2 ; x++)  { for (uint8_t y=0 ; y<w2 ; y++)  { x2 = (uint8_t)((x*ratio)>>8)
-    ; y2 = (uint8_t)((y*ratio)>>8) ; if (beast[x2] & (1 << y2)) return_buffer[ (y>>3) * w2 + x ] |=
-    1 << (y&7);
+    for (uint8_t x=0 ; x<w2 ; x++)
+    {
+        for (uint8_t y=0 ; y<w2 ; y++)
+        {
+            x2 = (uint8_t)((x*ratio)>>8);
+            y2 = (uint8_t)((y*ratio)>>8);
+            if (beast[x2] & (1 << y2))
+                return_buffer[ (y>>3) * w2 + x ] |= 1 << (y&7);
         }
     }
 }
