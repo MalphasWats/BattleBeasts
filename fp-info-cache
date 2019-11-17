@@ -1,0 +1,211 @@
+46778727070747
+Custom Footprints
+1.3-OLED-bare
+Through hole straight pin header, 1x07, 2.54mm pitch, single row
+Through hole pin header THT 1x07 2.54mm single row
+0
+30
+30
+Custom Footprints
+1.3-OLED-bare-noslot
+Through hole straight pin header, 1x07, 2.54mm pitch, single row
+Through hole pin header THT 1x07 2.54mm single row
+0
+30
+30
+Custom Footprints
+128x64-OLED
+Through hole straight pin header, 1x07, 2.54mm pitch, single row
+Through hole pin header THT 1x07 2.54mm single row
+0
+7
+7
+Custom Footprints
+128x128-OLED
+Through hole straight pin header, 1x07, 2.54mm pitch, single row
+Through hole pin header THT 1x07 2.54mm single row
+0
+7
+7
+Custom Footprints
+150mAh-Lipo
+
+
+0
+2
+2
+Custom Footprints
+3008_coin_cell
+
+
+0
+3
+2
+Custom Footprints
+4056E_LiIon_loader
+
+
+0
+6
+6
+Custom Footprints
+ALPS-SSSS811101_SPDT
+SMD 1x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
+SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
+0
+9
+4
+Custom Footprints
+CapTouch_D8.0mm
+SMD pad as test Point, diameter 4.0mm
+test point SMD pad
+0
+1
+1
+Custom Footprints
+CapTouch_D10.0mm
+SMD pad as test Point, diameter 4.0mm
+test point SMD pad
+0
+1
+1
+Custom Footprints
+CapTouch_D14.0mm
+SMD pad as test Point, diameter 4.0mm
+test point SMD pad
+0
+1
+1
+Custom Footprints
+DIP-8_W7.62mm
+8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+8
+8
+Custom Footprints
+Generic_Speaker
+Generic Buzzer, D15mm height 7.5mm with RM7.6mm
+buzzer
+0
+2
+2
+Custom Footprints
+ISP_SMD
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+Custom Footprints
+ISP_SMD_BACK
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+Custom Footprints
+LED_0402-Clean
+LED 0402 smd package
+LED led 0402 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+2
+2
+Custom Footprints
+LED_0402-Clean-mark
+LED 0402 smd package
+LED led 0402 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+2
+2
+Custom Footprints
+LED_0603_Clean
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+Custom Footprints
+LED_1206_3216Metric_Clean
+LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+Custom Footprints
+LOGO
+
+
+0
+0
+0
+Custom Footprints
+LOGO(1)
+
+
+0
+0
+0
+Custom Footprints
+LOGO_5x5
+
+
+0
+0
+0
+Custom Footprints
+LiPo_Pads
+
+
+0
+2
+2
+Custom Footprints
+M2_SCREW_HOLE
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+1
+1
+Custom Footprints
+R_0402_Clean
+Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0402
+0
+2
+2
+Custom Footprints
+R_0603_Clean
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Custom Footprints
+RasPi-Zero-Header
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+40
+40
+Custom Footprints
+SW_SOFT_SMD_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+2
+2
+Custom Footprints
+Samtec_MEC8-120-02-L-D-RA1_Edge
+
+
+0
+40
+40
+Custom Footprints
+Samtec_MEC8-120-02-L-D-RA1_Socket
+
+
+0
+42
+40

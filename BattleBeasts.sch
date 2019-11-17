@@ -1,0 +1,1960 @@
+EESchema Schematic File Version 4
+LIBS:BattleBeasts-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_SAMD:ATSAMD21G18A-AUT U1
+U 1 1 5DBA002B
+P 9250 3750
+F 0 "U1" H 8500 5550 50  0000 C CNN
+F 1 "SAMD21G" H 9850 2100 50  0000 C CNN
+F 2 "Package_QFP:TQFP-48_7x7mm_P0.5mm" H 8300 2000 50  0001 C CNN
+F 3 "" H 9250 4750 50  0001 C CNN
+	1    9250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:SW_CapTouch SW1
+U 1 1 5DC0673E
+P 4400 6600
+F 0 "SW1" H 4528 6598 50  0000 L CNN
+F 1 "SW_CapTouch" H 4528 6507 50  0000 L CNN
+F 2 "Custom Footprints:CapTouch_D8.0mm" H 4400 6800 50  0001 C CNN
+F 3 "~" H 4400 6800 50  0001 C CNN
+	1    4400 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:SW_CapTouch SW4
+U 1 1 5DC09FE6
+P 5150 6600
+F 0 "SW4" H 5278 6598 50  0000 L CNN
+F 1 "SW_CapTouch" H 5278 6507 50  0000 L CNN
+F 2 "Custom Footprints:CapTouch_D8.0mm" H 5150 6800 50  0001 C CNN
+F 3 "~" H 5150 6800 50  0001 C CNN
+	1    5150 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:SW_CapTouch SW7
+U 1 1 5DC0B160
+P 5900 6600
+F 0 "SW7" H 6028 6598 50  0000 L CNN
+F 1 "SW_CapTouch" H 6028 6507 50  0000 L CNN
+F 2 "Custom Footprints:CapTouch_D8.0mm" H 5900 6800 50  0001 C CNN
+F 3 "~" H 5900 6800 50  0001 C CNN
+	1    5900 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:SW_CapTouch SW2
+U 1 1 5DC18DEF
+P 4400 7100
+F 0 "SW2" H 4528 7098 50  0000 L CNN
+F 1 "SW_CapTouch" H 4528 7007 50  0000 L CNN
+F 2 "Custom Footprints:CapTouch_D8.0mm" H 4400 7300 50  0001 C CNN
+F 3 "~" H 4400 7300 50  0001 C CNN
+	1    4400 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:SW_CapTouch SW5
+U 1 1 5DC18DF9
+P 5150 7100
+F 0 "SW5" H 5278 7098 50  0000 L CNN
+F 1 "SW_CapTouch" H 5278 7007 50  0000 L CNN
+F 2 "Custom Footprints:CapTouch_D8.0mm" H 5150 7300 50  0001 C CNN
+F 3 "~" H 5150 7300 50  0001 C CNN
+	1    5150 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:SW_CapTouch SW8
+U 1 1 5DC18E03
+P 5900 7100
+F 0 "SW8" H 6028 7098 50  0000 L CNN
+F 1 "SW_CapTouch" H 6028 7007 50  0000 L CNN
+F 2 "Custom Footprints:CapTouch_D8.0mm" H 5900 7300 50  0001 C CNN
+F 3 "~" H 5900 7300 50  0001 C CNN
+	1    5900 7100
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 6800 0    50   Input ~ 0
+BTN_1
+Text GLabel 5150 6800 0    50   Input ~ 0
+BTN_2
+Text GLabel 5900 6800 0    50   Input ~ 0
+BTN_3
+Text GLabel 5900 7300 0    50   Input ~ 0
+BTN_6
+Text GLabel 5150 7300 0    50   Input ~ 0
+BTN_5
+Text GLabel 4400 7300 0    50   Input ~ 0
+BTN_4
+Text GLabel 8250 2350 0    50   Input ~ 0
+BTN_1
+Text GLabel 8250 2450 0    50   Input ~ 0
+BTN_2
+Text GLabel 8250 2750 0    50   Input ~ 0
+BTN_3
+Text GLabel 8250 2550 0    50   Input ~ 0
+BTN_4
+Text GLabel 8250 2650 0    50   Input ~ 0
+BTN_5
+Text GLabel 8250 2850 0    50   Input ~ 0
+BTN_6
+Text GLabel 8250 3650 0    50   Input ~ 0
+ROW_00
+Text GLabel 8250 3350 0    50   Input ~ 0
+ROW_03
+Text GLabel 8250 3450 0    50   Input ~ 0
+ROW_02
+Text GLabel 8250 3550 0    50   Input ~ 0
+ROW_01
+Text GLabel 8250 2950 0    50   Input ~ 0
+ROW_04
+Text GLabel 8250 3050 0    50   Input ~ 0
+ROW_05
+Text GLabel 8250 3150 0    50   Input ~ 0
+ROW_06
+Text GLabel 8250 3250 0    50   Input ~ 0
+ROW_07
+Text GLabel 10250 2250 2    50   Input ~ 0
+COL_00
+Text GLabel 10250 2150 2    50   Input ~ 0
+COL_01
+Text GLabel 10250 2450 2    50   Input ~ 0
+COL_02
+Text GLabel 10250 2350 2    50   Input ~ 0
+COL_03
+$Comp
+L Custom_Library:Battery_Cell BT1
+U 1 1 5DC51670
+P 7550 5850
+F 0 "BT1" H 7668 5946 50  0000 L CNN
+F 1 "Battery_Cell" H 7668 5855 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_3002_1x2032" V 7550 5910 50  0001 C CNN
+F 3 "" V 7550 5910 50  0001 C CNN
+	1    7550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR01
+U 1 1 5DC06E99
+P 7550 5650
+F 0 "#PWR01" H 7550 5500 50  0001 C CNN
+F 1 "+BATT" H 7565 5823 50  0000 C CNN
+F 2 "" H 7550 5650 50  0001 C CNN
+F 3 "" H 7550 5650 50  0001 C CNN
+	1    7550 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5DC16320
+P 7550 5950
+F 0 "#PWR02" H 7550 5700 50  0001 C CNN
+F 1 "GND" H 7555 5777 50  0000 C CNN
+F 2 "" H 7550 5950 50  0001 C CNN
+F 3 "" H 7550 5950 50  0001 C CNN
+	1    7550 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:C C1
+U 1 1 5DC1765E
+P 9600 1500
+F 0 "C1" V 9348 1500 50  0000 C CNN
+F 1 "C" V 9439 1500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9638 1350 50  0001 C CNN
+F 3 "" H 9600 1500 50  0001 C CNN
+	1    9600 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+BATT #PWR03
+U 1 1 5DC190E2
+P 9150 1350
+F 0 "#PWR03" H 9150 1200 50  0001 C CNN
+F 1 "+BATT" H 9165 1523 50  0000 C CNN
+F 2 "" H 9150 1350 50  0001 C CNN
+F 3 "" H 9150 1350 50  0001 C CNN
+	1    9150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5DC19929
+P 9750 1500
+F 0 "#PWR05" H 9750 1250 50  0001 C CNN
+F 1 "GND" H 9755 1327 50  0000 C CNN
+F 2 "" H 9750 1500 50  0001 C CNN
+F 3 "" H 9750 1500 50  0001 C CNN
+	1    9750 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 1350 9150 1500
+Wire Wire Line
+	9150 1850 9050 1850
+Connection ~ 9150 1850
+Wire Wire Line
+	9150 1850 9350 1850
+Connection ~ 9350 1850
+Wire Wire Line
+	9350 1850 9450 1850
+Wire Wire Line
+	9450 1500 9350 1500
+Connection ~ 9150 1500
+Wire Wire Line
+	9150 1500 9150 1850
+$Comp
+L power:GND #PWR04
+U 1 1 5DC4938A
+P 9250 5750
+F 0 "#PWR04" H 9250 5500 50  0001 C CNN
+F 1 "GND" H 9255 5577 50  0000 C CNN
+F 2 "" H 9250 5750 50  0001 C CNN
+F 3 "" H 9250 5750 50  0001 C CNN
+	1    9250 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 5650 9250 5650
+Wire Wire Line
+	9250 5750 9250 5650
+Connection ~ 9250 5650
+Wire Wire Line
+	9250 5650 9350 5650
+Connection ~ 4650 4450
+Connection ~ 4650 4050
+Connection ~ 4650 3650
+Connection ~ 4650 3250
+Connection ~ 4650 2850
+Connection ~ 4650 2450
+Connection ~ 4650 2050
+Connection ~ 4650 1650
+Wire Wire Line
+	850  1550 850  1950
+Connection ~ 850  1550
+Wire Wire Line
+	850  1150 850  1550
+Wire Wire Line
+	850  1950 850  2350
+Connection ~ 850  1950
+Wire Wire Line
+	850  2350 850  2750
+Connection ~ 850  2350
+Wire Wire Line
+	850  2750 850  3150
+Connection ~ 850  2750
+Wire Wire Line
+	850  3150 850  3550
+Connection ~ 850  3150
+Wire Wire Line
+	850  3550 850  3950
+Connection ~ 850  3550
+Wire Wire Line
+	850  3950 850  4350
+Connection ~ 850  3950
+Wire Wire Line
+	1350 3950 1350 4350
+Connection ~ 1350 3950
+Wire Wire Line
+	1350 3550 1350 3950
+Connection ~ 1350 3550
+Wire Wire Line
+	1350 3150 1350 3550
+Connection ~ 1350 3150
+Wire Wire Line
+	1350 2750 1350 3150
+Connection ~ 1350 2750
+Wire Wire Line
+	1350 2350 1350 2750
+Connection ~ 1350 2350
+Wire Wire Line
+	1350 1950 1350 2350
+Connection ~ 1350 1950
+Wire Wire Line
+	1350 1550 1350 1950
+Connection ~ 1350 1550
+Wire Wire Line
+	1350 1150 1350 1550
+Wire Wire Line
+	1850 1550 1850 1950
+Connection ~ 1850 1550
+Wire Wire Line
+	1850 1150 1850 1550
+Wire Wire Line
+	1850 1950 1850 2350
+Connection ~ 1850 1950
+Wire Wire Line
+	1850 2350 1850 2750
+Connection ~ 1850 2350
+Wire Wire Line
+	1850 2750 1850 3150
+Connection ~ 1850 2750
+Wire Wire Line
+	1850 3150 1850 3550
+Connection ~ 1850 3150
+Wire Wire Line
+	1850 3550 1850 3950
+Connection ~ 1850 3550
+Wire Wire Line
+	1850 3950 1850 4350
+Connection ~ 1850 3950
+Wire Wire Line
+	2350 3950 2350 4350
+Connection ~ 2350 3950
+Wire Wire Line
+	2350 3550 2350 3950
+Connection ~ 2350 3550
+Wire Wire Line
+	2350 3150 2350 3550
+Connection ~ 2350 3150
+Wire Wire Line
+	2350 2750 2350 3150
+Connection ~ 2350 2750
+Wire Wire Line
+	2350 2350 2350 2750
+Connection ~ 2350 2350
+Wire Wire Line
+	2350 1950 2350 2350
+Connection ~ 2350 1950
+Wire Wire Line
+	2350 1550 2350 1950
+Connection ~ 2350 1550
+Wire Wire Line
+	2350 1150 2350 1550
+Wire Wire Line
+	2850 1550 2850 1950
+Connection ~ 2850 1550
+Wire Wire Line
+	2850 1150 2850 1550
+Wire Wire Line
+	2850 1950 2850 2350
+Connection ~ 2850 1950
+Wire Wire Line
+	2850 2350 2850 2750
+Connection ~ 2850 2350
+Wire Wire Line
+	2850 2750 2850 3150
+Connection ~ 2850 2750
+Wire Wire Line
+	2850 3150 2850 3550
+Connection ~ 2850 3150
+Wire Wire Line
+	2850 3550 2850 3950
+Connection ~ 2850 3550
+Wire Wire Line
+	2850 3950 2850 4350
+Connection ~ 2850 3950
+Wire Wire Line
+	3350 3950 3350 4350
+Connection ~ 3350 3950
+Wire Wire Line
+	3350 3550 3350 3950
+Connection ~ 3350 3550
+Wire Wire Line
+	3350 3150 3350 3550
+Connection ~ 3350 3150
+Wire Wire Line
+	3350 2750 3350 3150
+Connection ~ 3350 2750
+Wire Wire Line
+	3350 2350 3350 2750
+Connection ~ 3350 2350
+Wire Wire Line
+	3350 1950 3350 2350
+Connection ~ 3350 1950
+Wire Wire Line
+	3350 1550 3350 1950
+Connection ~ 3350 1550
+Wire Wire Line
+	3350 1150 3350 1550
+Wire Wire Line
+	3850 1550 3850 1950
+Connection ~ 3850 1550
+Wire Wire Line
+	3850 1150 3850 1550
+Wire Wire Line
+	3850 1950 3850 2350
+Connection ~ 3850 1950
+Wire Wire Line
+	3850 2350 3850 2750
+Connection ~ 3850 2350
+Wire Wire Line
+	3850 2750 3850 3150
+Connection ~ 3850 2750
+Wire Wire Line
+	3850 3150 3850 3550
+Connection ~ 3850 3150
+Wire Wire Line
+	3850 3550 3850 3950
+Connection ~ 3850 3550
+Wire Wire Line
+	3850 3950 3850 4350
+Connection ~ 3850 3950
+Wire Wire Line
+	4350 3950 4350 4350
+Connection ~ 4350 3950
+Wire Wire Line
+	4350 3550 4350 3950
+Connection ~ 4350 3550
+Wire Wire Line
+	4350 3150 4350 3550
+Connection ~ 4350 3150
+Wire Wire Line
+	4350 2750 4350 3150
+Connection ~ 4350 2750
+Wire Wire Line
+	4350 2350 4350 2750
+Connection ~ 4350 2350
+Wire Wire Line
+	4350 1950 4350 2350
+Connection ~ 4350 1950
+Wire Wire Line
+	4350 1550 4350 1950
+Connection ~ 4350 1550
+Wire Wire Line
+	4350 1150 4350 1550
+Connection ~ 1650 4450
+Wire Wire Line
+	1150 4450 1150 4350
+Wire Wire Line
+	1650 4450 1150 4450
+Connection ~ 2150 4450
+Wire Wire Line
+	1650 4450 1650 4350
+Wire Wire Line
+	2150 4450 1650 4450
+Connection ~ 2650 4450
+Wire Wire Line
+	2150 4450 2150 4350
+Wire Wire Line
+	2650 4450 2150 4450
+Connection ~ 3150 4450
+Wire Wire Line
+	2650 4450 2650 4350
+Wire Wire Line
+	3150 4450 2650 4450
+Connection ~ 3650 4450
+Wire Wire Line
+	3150 4450 3150 4350
+Wire Wire Line
+	3650 4450 3150 4450
+Connection ~ 4150 4450
+Wire Wire Line
+	3650 4450 3650 4350
+Wire Wire Line
+	4150 4450 3650 4450
+Wire Wire Line
+	4150 4450 4150 4350
+Wire Wire Line
+	4650 4450 4150 4450
+Wire Wire Line
+	4650 4450 4650 4350
+Wire Wire Line
+	4900 4450 4650 4450
+Connection ~ 1650 4050
+Wire Wire Line
+	1150 4050 1150 3950
+Wire Wire Line
+	1650 4050 1150 4050
+Connection ~ 2150 4050
+Wire Wire Line
+	1650 4050 1650 3950
+Wire Wire Line
+	2150 4050 1650 4050
+Connection ~ 2650 4050
+Wire Wire Line
+	2150 4050 2150 3950
+Wire Wire Line
+	2650 4050 2150 4050
+Connection ~ 3150 4050
+Wire Wire Line
+	2650 4050 2650 3950
+Wire Wire Line
+	3150 4050 2650 4050
+Connection ~ 3650 4050
+Wire Wire Line
+	3150 4050 3150 3950
+Wire Wire Line
+	3650 4050 3150 4050
+Connection ~ 4150 4050
+Wire Wire Line
+	3650 4050 3650 3950
+Wire Wire Line
+	4150 4050 3650 4050
+Wire Wire Line
+	4150 4050 4150 3950
+Wire Wire Line
+	4650 4050 4150 4050
+Wire Wire Line
+	4650 4050 4650 3950
+Wire Wire Line
+	4900 4050 4650 4050
+Connection ~ 1650 3650
+Wire Wire Line
+	1150 3650 1150 3550
+Wire Wire Line
+	1650 3650 1150 3650
+Connection ~ 2150 3650
+Wire Wire Line
+	1650 3650 1650 3550
+Wire Wire Line
+	2150 3650 1650 3650
+Connection ~ 2650 3650
+Wire Wire Line
+	2150 3650 2150 3550
+Wire Wire Line
+	2650 3650 2150 3650
+Connection ~ 3150 3650
+Wire Wire Line
+	2650 3650 2650 3550
+Wire Wire Line
+	3150 3650 2650 3650
+Connection ~ 3650 3650
+Wire Wire Line
+	3150 3650 3150 3550
+Wire Wire Line
+	3650 3650 3150 3650
+Connection ~ 4150 3650
+Wire Wire Line
+	3650 3650 3650 3550
+Wire Wire Line
+	4150 3650 3650 3650
+Wire Wire Line
+	4150 3650 4150 3550
+Wire Wire Line
+	4650 3650 4150 3650
+Wire Wire Line
+	4650 3650 4650 3550
+Wire Wire Line
+	4900 3650 4650 3650
+Connection ~ 1650 3250
+Wire Wire Line
+	1150 3250 1150 3150
+Wire Wire Line
+	1650 3250 1150 3250
+Connection ~ 2150 3250
+Wire Wire Line
+	1650 3250 1650 3150
+Wire Wire Line
+	2150 3250 1650 3250
+Connection ~ 2650 3250
+Wire Wire Line
+	2150 3250 2150 3150
+Wire Wire Line
+	2650 3250 2150 3250
+Connection ~ 3150 3250
+Wire Wire Line
+	2650 3250 2650 3150
+Wire Wire Line
+	3150 3250 2650 3250
+Connection ~ 3650 3250
+Wire Wire Line
+	3150 3250 3150 3150
+Wire Wire Line
+	3650 3250 3150 3250
+Connection ~ 4150 3250
+Wire Wire Line
+	3650 3250 3650 3150
+Wire Wire Line
+	4150 3250 3650 3250
+Wire Wire Line
+	4150 3250 4150 3150
+Wire Wire Line
+	4650 3250 4150 3250
+Wire Wire Line
+	4650 3250 4650 3150
+Wire Wire Line
+	4900 3250 4650 3250
+Connection ~ 1650 2850
+Wire Wire Line
+	1150 2850 1150 2750
+Wire Wire Line
+	1650 2850 1150 2850
+Connection ~ 2150 2850
+Wire Wire Line
+	1650 2850 1650 2750
+Wire Wire Line
+	2150 2850 1650 2850
+Connection ~ 2650 2850
+Wire Wire Line
+	2150 2850 2150 2750
+Wire Wire Line
+	2650 2850 2150 2850
+Connection ~ 3150 2850
+Wire Wire Line
+	2650 2850 2650 2750
+Wire Wire Line
+	3150 2850 2650 2850
+Connection ~ 3650 2850
+Wire Wire Line
+	3150 2850 3150 2750
+Wire Wire Line
+	3650 2850 3150 2850
+Connection ~ 4150 2850
+Wire Wire Line
+	3650 2850 3650 2750
+Wire Wire Line
+	4150 2850 3650 2850
+Wire Wire Line
+	4150 2850 4150 2750
+Wire Wire Line
+	4650 2850 4150 2850
+Wire Wire Line
+	4650 2850 4650 2750
+Wire Wire Line
+	4900 2850 4650 2850
+Connection ~ 1650 2450
+Wire Wire Line
+	1150 2450 1150 2350
+Wire Wire Line
+	1650 2450 1150 2450
+Connection ~ 2150 2450
+Wire Wire Line
+	1650 2450 1650 2350
+Wire Wire Line
+	2150 2450 1650 2450
+Connection ~ 2650 2450
+Wire Wire Line
+	2150 2450 2150 2350
+Wire Wire Line
+	2650 2450 2150 2450
+Connection ~ 3150 2450
+Wire Wire Line
+	2650 2450 2650 2350
+Wire Wire Line
+	3150 2450 2650 2450
+Connection ~ 3650 2450
+Wire Wire Line
+	3150 2450 3150 2350
+Wire Wire Line
+	3650 2450 3150 2450
+Connection ~ 4150 2450
+Wire Wire Line
+	3650 2450 3650 2350
+Wire Wire Line
+	4150 2450 3650 2450
+Wire Wire Line
+	4150 2450 4150 2350
+Wire Wire Line
+	4650 2450 4150 2450
+Wire Wire Line
+	4650 2450 4650 2350
+Wire Wire Line
+	4900 2450 4650 2450
+Connection ~ 1650 1650
+Wire Wire Line
+	1150 1650 1150 1550
+Wire Wire Line
+	1650 1650 1150 1650
+Connection ~ 2150 1650
+Wire Wire Line
+	1650 1650 1650 1550
+Wire Wire Line
+	2150 1650 1650 1650
+Connection ~ 2650 1650
+Wire Wire Line
+	2150 1650 2150 1550
+Wire Wire Line
+	2650 1650 2150 1650
+Connection ~ 3150 1650
+Wire Wire Line
+	2650 1650 2650 1550
+Wire Wire Line
+	3150 1650 2650 1650
+Connection ~ 3650 1650
+Wire Wire Line
+	3150 1650 3150 1550
+Wire Wire Line
+	3650 1650 3150 1650
+Connection ~ 4150 1650
+Wire Wire Line
+	3650 1650 3650 1550
+Wire Wire Line
+	4150 1650 3650 1650
+Connection ~ 1650 2050
+Wire Wire Line
+	1150 2050 1150 1950
+Wire Wire Line
+	1650 2050 1150 2050
+Connection ~ 2150 2050
+Wire Wire Line
+	1650 2050 1650 1950
+Wire Wire Line
+	2150 2050 1650 2050
+Connection ~ 2650 2050
+Wire Wire Line
+	2150 2050 2150 1950
+Wire Wire Line
+	2650 2050 2150 2050
+Connection ~ 3150 2050
+Wire Wire Line
+	2650 2050 2650 1950
+Wire Wire Line
+	3150 2050 2650 2050
+Connection ~ 3650 2050
+Wire Wire Line
+	3150 2050 3150 1950
+Wire Wire Line
+	3650 2050 3150 2050
+Connection ~ 4150 2050
+Wire Wire Line
+	3650 2050 3650 1950
+Wire Wire Line
+	4150 2050 3650 2050
+Wire Wire Line
+	4150 2050 4150 1950
+Wire Wire Line
+	4650 2050 4150 2050
+Wire Wire Line
+	4650 2050 4650 1950
+Wire Wire Line
+	4900 2050 4650 2050
+Wire Wire Line
+	5450 4450 5200 4450
+Wire Wire Line
+	5450 4050 5200 4050
+Wire Wire Line
+	5450 3650 5200 3650
+Wire Wire Line
+	5450 3250 5200 3250
+Wire Wire Line
+	5450 2850 5200 2850
+Wire Wire Line
+	5450 2450 5200 2450
+Wire Wire Line
+	5450 2050 5200 2050
+Text GLabel 850  1150 1    50   Input ~ 0
+COL_07
+Text GLabel 1350 1150 1    50   Input ~ 0
+COL_06
+Text GLabel 1850 1150 1    50   Input ~ 0
+COL_05
+Text GLabel 2350 1150 1    50   Input ~ 0
+COL_04
+Text GLabel 2850 1150 1    50   Input ~ 0
+COL_03
+Text GLabel 3350 1150 1    50   Input ~ 0
+COL_02
+Text GLabel 3850 1150 1    50   Input ~ 0
+COL_01
+Wire Wire Line
+	4150 1650 4150 1550
+Wire Wire Line
+	4650 1650 4150 1650
+Wire Wire Line
+	4650 1650 4650 1550
+Wire Wire Line
+	4900 1650 4650 1650
+Wire Wire Line
+	5450 1650 5200 1650
+$Comp
+L Device:R R8
+U 1 1 5DC00802
+P 5050 4450
+F 0 "R8" H 5120 4496 50  0000 L CNN
+F 1 "1.3k" H 5120 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4980 4450 50  0001 C CNN
+F 3 "~" H 5050 4450 50  0001 C CNN
+	1    5050 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5DC007FC
+P 5050 4050
+F 0 "R7" H 5120 4096 50  0000 L CNN
+F 1 "1.3k" H 5120 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4980 4050 50  0001 C CNN
+F 3 "~" H 5050 4050 50  0001 C CNN
+	1    5050 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5DC007F6
+P 5050 3650
+F 0 "R6" H 5120 3696 50  0000 L CNN
+F 1 "1.3k" H 5120 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4980 3650 50  0001 C CNN
+F 3 "~" H 5050 3650 50  0001 C CNN
+	1    5050 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5DC007F0
+P 5050 3250
+F 0 "R5" H 5120 3296 50  0000 L CNN
+F 1 "1.3k" H 5120 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4980 3250 50  0001 C CNN
+F 3 "~" H 5050 3250 50  0001 C CNN
+	1    5050 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5DC007EA
+P 5050 2850
+F 0 "R4" H 5120 2896 50  0000 L CNN
+F 1 "1.3k" H 5120 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4980 2850 50  0001 C CNN
+F 3 "~" H 5050 2850 50  0001 C CNN
+	1    5050 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5DC007E4
+P 5050 2450
+F 0 "R3" H 5120 2496 50  0000 L CNN
+F 1 "1.3k" H 5120 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4980 2450 50  0001 C CNN
+F 3 "~" H 5050 2450 50  0001 C CNN
+	1    5050 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5DC007DE
+P 5050 2050
+F 0 "R2" H 5120 2096 50  0000 L CNN
+F 1 "1.3k" H 5120 2005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4980 2050 50  0001 C CNN
+F 3 "~" H 5050 2050 50  0001 C CNN
+	1    5050 2050
+	0    1    1    0   
+$EndComp
+Text GLabel 5450 4450 2    50   Input ~ 0
+ROW_07
+Text GLabel 5450 4050 2    50   Input ~ 0
+ROW_06
+Text GLabel 5450 3650 2    50   Input ~ 0
+ROW_05
+Text GLabel 5450 3250 2    50   Input ~ 0
+ROW_04
+Text GLabel 5450 2050 2    50   Input ~ 0
+ROW_01
+Text GLabel 5450 2450 2    50   Input ~ 0
+ROW_02
+Text GLabel 5450 2850 2    50   Input ~ 0
+ROW_03
+$Comp
+L Device:R R1
+U 1 1 5DC007D1
+P 5050 1650
+F 0 "R1" H 5120 1696 50  0000 L CNN
+F 1 "1.3k" H 5120 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4980 1650 50  0001 C CNN
+F 3 "~" H 5050 1650 50  0001 C CNN
+	1    5050 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D1
+U 1 1 5DC007CB
+P 4500 1550
+F 0 "D1" H 4500 1750 50  0000 C CNN
+F 1 "LED_ALT" H 4500 1650 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4500 1550 50  0001 C CNN
+F 3 "~" H 4500 1550 50  0001 C CNN
+	1    4500 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D42
+U 1 1 5DC007C5
+P 4000 3550
+F 0 "D42" H 3991 3766 50  0000 C CNN
+F 1 "LED_ALT" H 3991 3675 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4000 3550 50  0001 C CNN
+F 3 "~" H 4000 3550 50  0001 C CNN
+	1    4000 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D19
+U 1 1 5DC007BF
+P 3500 2350
+F 0 "D19" H 3491 2566 50  0000 C CNN
+F 1 "LED_ALT" H 3491 2475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3500 2350 50  0001 C CNN
+F 3 "~" H 3500 2350 50  0001 C CNN
+	1    3500 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D9
+U 1 1 5DC007B9
+P 4500 1950
+F 0 "D9" H 4491 2166 50  0000 C CNN
+F 1 "LED_ALT" H 4491 2075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4500 1950 50  0001 C CNN
+F 3 "~" H 4500 1950 50  0001 C CNN
+	1    4500 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D50
+U 1 1 5DC007B3
+P 4000 3950
+F 0 "D50" H 3991 4166 50  0000 C CNN
+F 1 "LED_ALT" H 3991 4075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4000 3950 50  0001 C CNN
+F 3 "~" H 4000 3950 50  0001 C CNN
+	1    4000 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D27
+U 1 1 5DC007AD
+P 3500 2750
+F 0 "D27" H 3491 2966 50  0000 C CNN
+F 1 "LED_ALT" H 3491 2875 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3500 2750 50  0001 C CNN
+F 3 "~" H 3500 2750 50  0001 C CNN
+	1    3500 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D17
+U 1 1 5DC007A7
+P 4500 2350
+F 0 "D17" H 4491 2566 50  0000 C CNN
+F 1 "LED_ALT" H 4491 2475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4500 2350 50  0001 C CNN
+F 3 "~" H 4500 2350 50  0001 C CNN
+	1    4500 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D58
+U 1 1 5DC007A1
+P 4000 4350
+F 0 "D58" H 3991 4566 50  0000 C CNN
+F 1 "LED_ALT" H 3991 4475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4000 4350 50  0001 C CNN
+F 3 "~" H 4000 4350 50  0001 C CNN
+	1    4000 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D35
+U 1 1 5DC0079B
+P 3500 3150
+F 0 "D35" H 3491 3366 50  0000 C CNN
+F 1 "LED_ALT" H 3491 3275 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3500 3150 50  0001 C CNN
+F 3 "~" H 3500 3150 50  0001 C CNN
+	1    3500 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D25
+U 1 1 5DC00795
+P 4500 2750
+F 0 "D25" H 4491 2966 50  0000 C CNN
+F 1 "LED_ALT" H 4491 2875 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4500 2750 50  0001 C CNN
+F 3 "~" H 4500 2750 50  0001 C CNN
+	1    4500 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D2
+U 1 1 5DC0078F
+P 4000 1550
+F 0 "D2" H 3991 1766 50  0000 C CNN
+F 1 "LED_ALT" H 3991 1675 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4000 1550 50  0001 C CNN
+F 3 "~" H 4000 1550 50  0001 C CNN
+	1    4000 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D43
+U 1 1 5DC00789
+P 3500 3550
+F 0 "D43" H 3491 3766 50  0000 C CNN
+F 1 "LED_ALT" H 3491 3675 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3500 3550 50  0001 C CNN
+F 3 "~" H 3500 3550 50  0001 C CNN
+	1    3500 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D60
+U 1 1 5DC00783
+P 3000 4350
+F 0 "D60" H 2991 4566 50  0000 C CNN
+F 1 "LED_ALT" H 2991 4475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3000 4350 50  0001 C CNN
+F 3 "~" H 3000 4350 50  0001 C CNN
+	1    3000 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D37
+U 1 1 5DC0077D
+P 2500 3150
+F 0 "D37" H 2491 3366 50  0000 C CNN
+F 1 "LED_ALT" H 2491 3275 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2500 3150 50  0001 C CNN
+F 3 "~" H 2500 3150 50  0001 C CNN
+	1    2500 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D14
+U 1 1 5DC00777
+P 2000 1950
+F 0 "D14" H 1991 2166 50  0000 C CNN
+F 1 "LED_ALT" H 1991 2075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2000 1950 50  0001 C CNN
+F 3 "~" H 2000 1950 50  0001 C CNN
+	1    2000 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D4
+U 1 1 5DC00771
+P 3000 1550
+F 0 "D4" H 2991 1766 50  0000 C CNN
+F 1 "LED_ALT" H 2991 1675 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3000 1550 50  0001 C CNN
+F 3 "~" H 3000 1550 50  0001 C CNN
+	1    3000 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D45
+U 1 1 5DC0076B
+P 2500 3550
+F 0 "D45" H 2491 3766 50  0000 C CNN
+F 1 "LED_ALT" H 2491 3675 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2500 3550 50  0001 C CNN
+F 3 "~" H 2500 3550 50  0001 C CNN
+	1    2500 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D22
+U 1 1 5DC00765
+P 2000 2350
+F 0 "D22" H 1991 2566 50  0000 C CNN
+F 1 "LED_ALT" H 1991 2475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2000 2350 50  0001 C CNN
+F 3 "~" H 2000 2350 50  0001 C CNN
+	1    2000 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D12
+U 1 1 5DC0075F
+P 3000 1950
+F 0 "D12" H 2991 2166 50  0000 C CNN
+F 1 "LED_ALT" H 2991 2075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3000 1950 50  0001 C CNN
+F 3 "~" H 3000 1950 50  0001 C CNN
+	1    3000 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D53
+U 1 1 5DC00759
+P 2500 3950
+F 0 "D53" H 2491 4166 50  0000 C CNN
+F 1 "LED_ALT" H 2491 4075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2500 3950 50  0001 C CNN
+F 3 "~" H 2500 3950 50  0001 C CNN
+	1    2500 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D30
+U 1 1 5DC00753
+P 2000 2750
+F 0 "D30" H 1991 2966 50  0000 C CNN
+F 1 "LED_ALT" H 1991 2875 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2000 2750 50  0001 C CNN
+F 3 "~" H 2000 2750 50  0001 C CNN
+	1    2000 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D20
+U 1 1 5DC0074D
+P 3000 2350
+F 0 "D20" H 2991 2566 50  0000 C CNN
+F 1 "LED_ALT" H 2991 2475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3000 2350 50  0001 C CNN
+F 3 "~" H 3000 2350 50  0001 C CNN
+	1    3000 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D61
+U 1 1 5DC00747
+P 2500 4350
+F 0 "D61" H 2491 4566 50  0000 C CNN
+F 1 "LED_ALT" H 2491 4475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2500 4350 50  0001 C CNN
+F 3 "~" H 2500 4350 50  0001 C CNN
+	1    2500 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D38
+U 1 1 5DC00741
+P 2000 3150
+F 0 "D38" H 1991 3366 50  0000 C CNN
+F 1 "LED_ALT" H 1991 3275 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2000 3150 50  0001 C CNN
+F 3 "~" H 2000 3150 50  0001 C CNN
+	1    2000 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D55
+U 1 1 5DC0073B
+P 1500 3950
+F 0 "D55" H 1491 4166 50  0000 C CNN
+F 1 "LED_ALT" H 1491 4075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1500 3950 50  0001 C CNN
+F 3 "~" H 1500 3950 50  0001 C CNN
+	1    1500 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D32
+U 1 1 5DC00735
+P 1000 2750
+F 0 "D32" H 991 2966 50  0000 C CNN
+F 1 "LED_ALT" H 991 2875 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1000 2750 50  0001 C CNN
+F 3 "~" H 1000 2750 50  0001 C CNN
+	1    1000 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D63
+U 1 1 5DC0072F
+P 1500 4350
+F 0 "D63" H 1491 4566 50  0000 C CNN
+F 1 "LED_ALT" H 1491 4475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1500 4350 50  0001 C CNN
+F 3 "~" H 1500 4350 50  0001 C CNN
+	1    1500 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D40
+U 1 1 5DC00729
+P 1000 3150
+F 0 "D40" H 991 3366 50  0000 C CNN
+F 1 "LED_ALT" H 991 3275 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1000 3150 50  0001 C CNN
+F 3 "~" H 1000 3150 50  0001 C CNN
+	1    1000 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D7
+U 1 1 5DC00723
+P 1500 1550
+F 0 "D7" H 1491 1766 50  0000 C CNN
+F 1 "LED_ALT" H 1491 1675 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1500 1550 50  0001 C CNN
+F 3 "~" H 1500 1550 50  0001 C CNN
+	1    1500 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D48
+U 1 1 5DC0071D
+P 1000 3550
+F 0 "D48" H 991 3766 50  0000 C CNN
+F 1 "LED_ALT" H 991 3675 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1000 3550 50  0001 C CNN
+F 3 "~" H 1000 3550 50  0001 C CNN
+	1    1000 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D15
+U 1 1 5DC00717
+P 1500 1950
+F 0 "D15" H 1491 2166 50  0000 C CNN
+F 1 "LED_ALT" H 1491 2075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1500 1950 50  0001 C CNN
+F 3 "~" H 1500 1950 50  0001 C CNN
+	1    1500 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D56
+U 1 1 5DC00711
+P 1000 3950
+F 0 "D56" H 991 4166 50  0000 C CNN
+F 1 "LED_ALT" H 991 4075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1000 3950 50  0001 C CNN
+F 3 "~" H 1000 3950 50  0001 C CNN
+	1    1000 3950
+	-1   0    0    1   
+$EndComp
+Text GLabel 4350 1150 1    50   Input ~ 0
+COL_00
+$Comp
+L Device:LED_ALT D33
+U 1 1 5DC0070A
+P 4500 3150
+F 0 "D33" H 4491 3366 50  0000 C CNN
+F 1 "LED_ALT" H 4491 3275 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4500 3150 50  0001 C CNN
+F 3 "~" H 4500 3150 50  0001 C CNN
+	1    4500 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D10
+U 1 1 5DC00704
+P 4000 1950
+F 0 "D10" H 3991 2166 50  0000 C CNN
+F 1 "LED_ALT" H 3991 2075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4000 1950 50  0001 C CNN
+F 3 "~" H 4000 1950 50  0001 C CNN
+	1    4000 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D51
+U 1 1 5DC006FE
+P 3500 3950
+F 0 "D51" H 3491 4166 50  0000 C CNN
+F 1 "LED_ALT" H 3491 4075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3500 3950 50  0001 C CNN
+F 3 "~" H 3500 3950 50  0001 C CNN
+	1    3500 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D41
+U 1 1 5DC006F8
+P 4500 3550
+F 0 "D41" H 4491 3766 50  0000 C CNN
+F 1 "LED_ALT" H 4491 3675 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4500 3550 50  0001 C CNN
+F 3 "~" H 4500 3550 50  0001 C CNN
+	1    4500 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D18
+U 1 1 5DC006F2
+P 4000 2350
+F 0 "D18" H 3991 2566 50  0000 C CNN
+F 1 "LED_ALT" H 3991 2475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4000 2350 50  0001 C CNN
+F 3 "~" H 4000 2350 50  0001 C CNN
+	1    4000 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D59
+U 1 1 5DC006EC
+P 3500 4350
+F 0 "D59" H 3491 4566 50  0000 C CNN
+F 1 "LED_ALT" H 3491 4475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3500 4350 50  0001 C CNN
+F 3 "~" H 3500 4350 50  0001 C CNN
+	1    3500 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D49
+U 1 1 5DC006E6
+P 4500 3950
+F 0 "D49" H 4491 4166 50  0000 C CNN
+F 1 "LED_ALT" H 4491 4075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4500 3950 50  0001 C CNN
+F 3 "~" H 4500 3950 50  0001 C CNN
+	1    4500 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D26
+U 1 1 5DC006E0
+P 4000 2750
+F 0 "D26" H 3991 2966 50  0000 C CNN
+F 1 "LED_ALT" H 3991 2875 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4000 2750 50  0001 C CNN
+F 3 "~" H 4000 2750 50  0001 C CNN
+	1    4000 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D3
+U 1 1 5DC006DA
+P 3500 1550
+F 0 "D3" H 3491 1766 50  0000 C CNN
+F 1 "LED_ALT" H 3491 1675 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3500 1550 50  0001 C CNN
+F 3 "~" H 3500 1550 50  0001 C CNN
+	1    3500 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D57
+U 1 1 5DC006D4
+P 4500 4350
+F 0 "D57" H 4491 4566 50  0000 C CNN
+F 1 "LED_ALT" H 4491 4475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4500 4350 50  0001 C CNN
+F 3 "~" H 4500 4350 50  0001 C CNN
+	1    4500 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D34
+U 1 1 5DC006CE
+P 4000 3150
+F 0 "D34" H 3991 3366 50  0000 C CNN
+F 1 "LED_ALT" H 3991 3275 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 4000 3150 50  0001 C CNN
+F 3 "~" H 4000 3150 50  0001 C CNN
+	1    4000 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D11
+U 1 1 5DC006C8
+P 3500 1950
+F 0 "D11" H 3491 2166 50  0000 C CNN
+F 1 "LED_ALT" H 3491 2075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3500 1950 50  0001 C CNN
+F 3 "~" H 3500 1950 50  0001 C CNN
+	1    3500 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D28
+U 1 1 5DC006C2
+P 3000 2750
+F 0 "D28" H 2991 2966 50  0000 C CNN
+F 1 "LED_ALT" H 2991 2875 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3000 2750 50  0001 C CNN
+F 3 "~" H 3000 2750 50  0001 C CNN
+	1    3000 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D5
+U 1 1 5DC006BC
+P 2500 1550
+F 0 "D5" H 2491 1766 50  0000 C CNN
+F 1 "LED_ALT" H 2491 1675 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2500 1550 50  0001 C CNN
+F 3 "~" H 2500 1550 50  0001 C CNN
+	1    2500 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D46
+U 1 1 5DC006B6
+P 2000 3550
+F 0 "D46" H 1991 3766 50  0000 C CNN
+F 1 "LED_ALT" H 1991 3675 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2000 3550 50  0001 C CNN
+F 3 "~" H 2000 3550 50  0001 C CNN
+	1    2000 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D36
+U 1 1 5DC006B0
+P 3000 3150
+F 0 "D36" H 2991 3366 50  0000 C CNN
+F 1 "LED_ALT" H 2991 3275 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3000 3150 50  0001 C CNN
+F 3 "~" H 3000 3150 50  0001 C CNN
+	1    3000 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D13
+U 1 1 5DC006AA
+P 2500 1950
+F 0 "D13" H 2491 2166 50  0000 C CNN
+F 1 "LED_ALT" H 2491 2075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2500 1950 50  0001 C CNN
+F 3 "~" H 2500 1950 50  0001 C CNN
+	1    2500 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D54
+U 1 1 5DC006A4
+P 2000 3950
+F 0 "D54" H 1991 4166 50  0000 C CNN
+F 1 "LED_ALT" H 1991 4075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2000 3950 50  0001 C CNN
+F 3 "~" H 2000 3950 50  0001 C CNN
+	1    2000 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D44
+U 1 1 5DC0069E
+P 3000 3550
+F 0 "D44" H 2991 3766 50  0000 C CNN
+F 1 "LED_ALT" H 2991 3675 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3000 3550 50  0001 C CNN
+F 3 "~" H 3000 3550 50  0001 C CNN
+	1    3000 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D21
+U 1 1 5DC00698
+P 2500 2350
+F 0 "D21" H 2491 2566 50  0000 C CNN
+F 1 "LED_ALT" H 2491 2475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2500 2350 50  0001 C CNN
+F 3 "~" H 2500 2350 50  0001 C CNN
+	1    2500 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D62
+U 1 1 5DC00692
+P 2000 4350
+F 0 "D62" H 1991 4566 50  0000 C CNN
+F 1 "LED_ALT" H 1991 4475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2000 4350 50  0001 C CNN
+F 3 "~" H 2000 4350 50  0001 C CNN
+	1    2000 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D52
+U 1 1 5DC0068C
+P 3000 3950
+F 0 "D52" H 2991 4166 50  0000 C CNN
+F 1 "LED_ALT" H 2991 4075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 3000 3950 50  0001 C CNN
+F 3 "~" H 3000 3950 50  0001 C CNN
+	1    3000 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D29
+U 1 1 5DC00686
+P 2500 2750
+F 0 "D29" H 2491 2966 50  0000 C CNN
+F 1 "LED_ALT" H 2491 2875 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2500 2750 50  0001 C CNN
+F 3 "~" H 2500 2750 50  0001 C CNN
+	1    2500 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D6
+U 1 1 5DC00680
+P 2000 1550
+F 0 "D6" H 1991 1766 50  0000 C CNN
+F 1 "LED_ALT" H 1991 1675 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 2000 1550 50  0001 C CNN
+F 3 "~" H 2000 1550 50  0001 C CNN
+	1    2000 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D23
+U 1 1 5DC0067A
+P 1500 2350
+F 0 "D23" H 1491 2566 50  0000 C CNN
+F 1 "LED_ALT" H 1491 2475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1500 2350 50  0001 C CNN
+F 3 "~" H 1500 2350 50  0001 C CNN
+	1    1500 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D64
+U 1 1 5DC00674
+P 1000 4350
+F 0 "D64" H 991 4566 50  0000 C CNN
+F 1 "LED_ALT" H 991 4475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1000 4350 50  0001 C CNN
+F 3 "~" H 1000 4350 50  0001 C CNN
+	1    1000 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D31
+U 1 1 5DC0066E
+P 1500 2750
+F 0 "D31" H 1491 2966 50  0000 C CNN
+F 1 "LED_ALT" H 1491 2875 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1500 2750 50  0001 C CNN
+F 3 "~" H 1500 2750 50  0001 C CNN
+	1    1500 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D8
+U 1 1 5DC00668
+P 1000 1550
+F 0 "D8" H 991 1766 50  0000 C CNN
+F 1 "LED_ALT" H 991 1675 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1000 1550 50  0001 C CNN
+F 3 "~" H 1000 1550 50  0001 C CNN
+	1    1000 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D39
+U 1 1 5DC00662
+P 1500 3150
+F 0 "D39" H 1491 3366 50  0000 C CNN
+F 1 "LED_ALT" H 1491 3275 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1500 3150 50  0001 C CNN
+F 3 "~" H 1500 3150 50  0001 C CNN
+	1    1500 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D16
+U 1 1 5DC0065C
+P 1000 1950
+F 0 "D16" H 991 2166 50  0000 C CNN
+F 1 "LED_ALT" H 991 2075 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1000 1950 50  0001 C CNN
+F 3 "~" H 1000 1950 50  0001 C CNN
+	1    1000 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D47
+U 1 1 5DC00656
+P 1500 3550
+F 0 "D47" H 1491 3766 50  0000 C CNN
+F 1 "LED_ALT" H 1491 3675 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1500 3550 50  0001 C CNN
+F 3 "~" H 1500 3550 50  0001 C CNN
+	1    1500 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D24
+U 1 1 5DC00650
+P 1000 2350
+F 0 "D24" H 991 2566 50  0000 C CNN
+F 1 "LED_ALT" H 991 2475 50  0000 C CNN
+F 2 "Custom Footprints:LED_1206_3216Metric_Clean" H 1000 2350 50  0001 C CNN
+F 3 "~" H 1000 2350 50  0001 C CNN
+	1    1000 2350
+	-1   0    0    1   
+$EndComp
+Text GLabel 5450 1650 2    50   Input ~ 0
+ROW_00
+Text GLabel 8250 3750 0    50   Input ~ 0
+PAD_0
+Text GLabel 8250 3850 0    50   Input ~ 0
+PAD_1
+Text GLabel 8250 3950 0    50   Input ~ 0
+PAD_2
+Text GLabel 8250 4050 0    50   Input ~ 0
+PAD_3
+Text GLabel 8250 5050 0    50   Input ~ 0
+SWDIO
+Text GLabel 8250 4950 0    50   Input ~ 0
+SWCLK
+Text GLabel 8250 4550 0    50   Input ~ 0
+USB-
+Text GLabel 8250 4650 0    50   Input ~ 0
+USB+
+Text GLabel 8250 4450 0    50   Input ~ 0
+RGB_1
+Text GLabel 8250 4750 0    50   Input ~ 0
+RGB_2
+Text GLabel 8250 4850 0    50   Input ~ 0
+RGB_3
+Text GLabel 6600 2250 0    50   Input ~ 0
+RGB_R
+Text GLabel 6600 2050 0    50   Input ~ 0
+RGB_G
+Text GLabel 6600 2450 0    50   Input ~ 0
+RGB_B
+$Comp
+L Custom_Library:LED_RGB_CA D65
+U 1 1 5DDC88DE
+P 6800 2250
+F 0 "D65" H 6800 2747 50  0000 C CNN
+F 1 "LED_RGB_CA" H 6800 2656 50  0000 C CNN
+F 2 "LED_SMD:LED_Avago_PLCC6_3x2.8mm" H 6800 2200 50  0001 C CNN
+F 3 "~" H 6800 2200 50  0001 C CNN
+	1    6800 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2050 7000 2250
+Connection ~ 7000 2250
+Wire Wire Line
+	7000 2250 7000 2450
+Text GLabel 7000 2250 2    50   Input ~ 0
+RGB_1
+Text GLabel 6600 3350 0    50   Input ~ 0
+RGB_R
+Text GLabel 6600 3150 0    50   Input ~ 0
+RGB_G
+Text GLabel 6600 3550 0    50   Input ~ 0
+RGB_B
+$Comp
+L Custom_Library:LED_RGB_CA D66
+U 1 1 5DE39805
+P 6800 3350
+F 0 "D66" H 6800 3847 50  0000 C CNN
+F 1 "LED_RGB_CA" H 6800 3756 50  0000 C CNN
+F 2 "LED_SMD:LED_Avago_PLCC6_3x2.8mm" H 6800 3300 50  0001 C CNN
+F 3 "~" H 6800 3300 50  0001 C CNN
+	1    6800 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3150 7000 3350
+Connection ~ 7000 3350
+Wire Wire Line
+	7000 3350 7000 3550
+Text GLabel 7000 3350 2    50   Input ~ 0
+RGB_2
+Text GLabel 6600 4450 0    50   Input ~ 0
+RGB_R
+Text GLabel 6600 4250 0    50   Input ~ 0
+RGB_G
+Text GLabel 6600 4650 0    50   Input ~ 0
+RGB_B
+$Comp
+L Custom_Library:LED_RGB_CA D67
+U 1 1 5DE596D1
+P 6800 4450
+F 0 "D67" H 6800 4947 50  0000 C CNN
+F 1 "LED_RGB_CA" H 6800 4856 50  0000 C CNN
+F 2 "LED_SMD:LED_Avago_PLCC6_3x2.8mm" H 6800 4400 50  0001 C CNN
+F 3 "~" H 6800 4400 50  0001 C CNN
+	1    6800 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4250 7000 4450
+Connection ~ 7000 4450
+Wire Wire Line
+	7000 4450 7000 4650
+Text GLabel 7000 4450 2    50   Input ~ 0
+RGB_3
+Text GLabel 7950 4250 0    50   Input ~ 0
+RGB_R
+Text GLabel 7950 4150 0    50   Input ~ 0
+RGB_G
+Text GLabel 7950 4350 0    50   Input ~ 0
+RGB_B
+$Comp
+L Device:R R9
+U 1 1 5DEAB1A2
+P 8100 4150
+F 0 "R9" H 8170 4196 50  0000 L CNN
+F 1 "300R" H 8170 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8030 4150 50  0001 C CNN
+F 3 "~" H 8100 4150 50  0001 C CNN
+	1    8100 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5DEAB1AC
+P 8100 4250
+F 0 "R10" H 8170 4296 50  0000 L CNN
+F 1 "300R" H 8170 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8030 4250 50  0001 C CNN
+F 3 "~" H 8100 4250 50  0001 C CNN
+	1    8100 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5DEAB1B6
+P 8100 4350
+F 0 "R11" H 8170 4396 50  0000 L CNN
+F 1 "300R" H 8170 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8030 4350 50  0001 C CNN
+F 3 "~" H 8100 4350 50  0001 C CNN
+	1    8100 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 5DF31255
+P 6450 1050
+F 0 "J1" H 6507 1517 50  0000 C CNN
+F 1 "USB_B_Micro" H 6507 1426 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 6600 1000 50  0001 C CNN
+F 3 "~" H 6600 1000 50  0001 C CNN
+	1    6450 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:APE8865NR-12-HF-3 U2
+U 1 1 5DF3CF5E
+P 8100 950
+F 0 "U2" H 8100 1192 50  0000 C CNN
+F 1 "AP7333-33SRG-7" H 8100 1101 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8100 1175 50  0001 C CIN
+F 3 "http://www.tme.eu/fr/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf" H 8100 900 50  0001 C CNN
+	1    8100 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5DF3CF64
+P 7500 1050
+F 0 "C2" H 7592 1096 50  0000 L CNN
+F 1 "1uF" H 7592 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 1050 50  0001 C CNN
+F 3 "~" H 7500 1050 50  0001 C CNN
+	1    7500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5DF3CF6A
+P 8700 1050
+F 0 "C3" H 8792 1096 50  0000 L CNN
+F 1 "1uF" H 8792 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8700 1050 50  0001 C CNN
+F 3 "~" H 8700 1050 50  0001 C CNN
+	1    8700 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 950  7800 950 
+Wire Wire Line
+	8400 950  8700 950 
+$Comp
+L power:GND #PWR09
+U 1 1 5DF3CF72
+P 7500 1150
+F 0 "#PWR09" H 7500 900 50  0001 C CNN
+F 1 "GND" H 7505 977 50  0000 C CNN
+F 2 "" H 7500 1150 50  0001 C CNN
+F 3 "" H 7500 1150 50  0001 C CNN
+	1    7500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5DF3CF78
+P 8100 1250
+F 0 "#PWR010" H 8100 1000 50  0001 C CNN
+F 1 "GND" H 8105 1077 50  0000 C CNN
+F 2 "" H 8100 1250 50  0001 C CNN
+F 3 "" H 8100 1250 50  0001 C CNN
+	1    8100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5DF3CF7E
+P 8700 1150
+F 0 "#PWR012" H 8700 900 50  0001 C CNN
+F 1 "GND" H 8705 977 50  0000 C CNN
+F 2 "" H 8700 1150 50  0001 C CNN
+F 3 "" H 8700 1150 50  0001 C CNN
+	1    8700 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR011
+U 1 1 5DF3CF84
+P 8700 950
+F 0 "#PWR011" H 8700 800 50  0001 C CNN
+F 1 "+3.3V" H 8715 1123 50  0000 C CNN
+F 2 "" H 8700 950 50  0001 C CNN
+F 3 "" H 8700 950 50  0001 C CNN
+	1    8700 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 8700 950 
+$Comp
+L power:VBUS #PWR08
+U 1 1 5DF4DB5D
+P 7500 950
+F 0 "#PWR08" H 7500 800 50  0001 C CNN
+F 1 "VBUS" H 7515 1123 50  0000 C CNN
+F 2 "" H 7500 950 50  0001 C CNN
+F 3 "" H 7500 950 50  0001 C CNN
+	1    7500 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 7500 950 
+$Comp
+L power:VBUS #PWR07
+U 1 1 5DF51457
+P 6850 750
+F 0 "#PWR07" H 6850 600 50  0001 C CNN
+F 1 "VBUS" H 6865 923 50  0000 C CNN
+F 2 "" H 6850 750 50  0001 C CNN
+F 3 "" H 6850 750 50  0001 C CNN
+	1    6850 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 850  6850 850 
+Wire Wire Line
+	6850 850  6850 750 
+$Comp
+L power:GND #PWR06
+U 1 1 5DF5EE46
+P 6400 1450
+F 0 "#PWR06" H 6400 1200 50  0001 C CNN
+F 1 "GND" H 6405 1277 50  0000 C CNN
+F 2 "" H 6400 1450 50  0001 C CNN
+F 3 "" H 6400 1450 50  0001 C CNN
+	1    6400 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1450 6400 1450
+Connection ~ 6400 1450
+Wire Wire Line
+	6400 1450 6450 1450
+Wire Wire Line
+	6750 1250 6750 1450
+Wire Wire Line
+	6750 1450 6450 1450
+Connection ~ 6450 1450
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 5DF92D22
+P 9350 1500
+F 0 "#PWR0101" H 9350 1350 50  0001 C CNN
+F 1 "+3.3V" H 9365 1673 50  0000 C CNN
+F 2 "" H 9350 1500 50  0001 C CNN
+F 3 "" H 9350 1500 50  0001 C CNN
+	1    9350 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 9350 1500
+Wire Wire Line
+	9350 1500 9150 1500
+Text GLabel 6750 1150 2    50   Input ~ 0
+USB-
+Text GLabel 6750 1050 2    50   Input ~ 0
+USB+
+Text GLabel 6400 5750 0    50   Input ~ 0
+PAD_0
+Text GLabel 6400 5850 0    50   Input ~ 0
+PAD_1
+Text GLabel 6900 5850 2    50   Input ~ 0
+PAD_2
+Text GLabel 6400 5950 0    50   Input ~ 0
+PAD_3
+Text GLabel 6400 6150 0    50   Input ~ 0
+SWDIO
+Text GLabel 6900 6150 2    50   Input ~ 0
+SWCLK
+Text GLabel 10250 2650 2    50   Input ~ 0
+COL_06
+Text GLabel 10250 2550 2    50   Input ~ 0
+COL_07
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5DC96BE6
+P 6600 5950
+F 0 "J2" H 6650 6367 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 6650 6276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 6600 5950 50  0001 C CNN
+F 3 "~" H 6600 5950 50  0001 C CNN
+	1    6600 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5DCB16B5
+P 7150 5700
+F 0 "#PWR0102" H 7150 5550 50  0001 C CNN
+F 1 "+3.3V" H 7165 5873 50  0000 C CNN
+F 2 "" H 7150 5700 50  0001 C CNN
+F 3 "" H 7150 5700 50  0001 C CNN
+	1    7150 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5750 7150 5750
+Wire Wire Line
+	7150 5750 7150 5700
+$Comp
+L power:GND #PWR0103
+U 1 1 5DCC27F1
+P 7300 6100
+F 0 "#PWR0103" H 7300 5850 50  0001 C CNN
+F 1 "GND" H 7305 5927 50  0000 C CNN
+F 2 "" H 7300 6100 50  0001 C CNN
+F 3 "" H 7300 6100 50  0001 C CNN
+	1    7300 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 8250 2150 0    50   Input ~ 0
+GPIO_0
+Text GLabel 8250 2250 0    50   Input ~ 0
+GPIO_1
+Text GLabel 6400 6050 0    50   Input ~ 0
+GPIO_0
+Text GLabel 6900 6050 2    50   Input ~ 0
+GPIO_1
+Wire Wire Line
+	6900 5950 7300 5950
+Wire Wire Line
+	7300 5950 7300 6100
+Text GLabel 10250 2850 2    50   Input ~ 0
+COL_05
+Text GLabel 10250 2750 2    50   Input ~ 0
+COL_04
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5DC9C498
+P 8050 5250
+F 0 "J3" H 7968 5025 50  0000 C CNN
+F 1 "Reset" H 8050 5350 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8050 5250 50  0001 C CNN
+F 3 "~" H 8050 5250 50  0001 C CNN
+	1    8050 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_Library:Logo X1
+U 1 1 5DCE0385
+P 5600 5000
+F 0 "X1" H 5680 5046 50  0000 L CNN
+F 1 "Logo" H 5680 4955 50  0000 L CNN
+F 2 "Custom Footprints:LOGO_5x5" H 5600 5000 50  0001 C CNN
+F 3 "" H 5600 5000 50  0001 C CNN
+	1    5600 5000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
