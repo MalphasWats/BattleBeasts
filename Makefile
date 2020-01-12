@@ -1,12 +1,13 @@
-LDSCRIPT = lib/linker_scripts/samd21g18au_flash.ld
+LDSCRIPT = lib/linker_scripts/samd21g18a_flash.ld
 BOOTUP = lib/startup_samd21.o
-MCUTYPE=__SAMD21G18AU__
+MCUTYPE=__SAMD21G18A__
 
 OBJS=$(BOOTUP) blink.o
 
 # Tools
 CC=arm-none-eabi-gcc
 LD=arm-none-eabi-gcc
+SZ=arm-none-eabi-size -d
 
 ELF=blink.elf
 
@@ -24,6 +25,8 @@ $(ELF):		$(OBJS)
 
 %.o:	%.s
 	$(AS) $< -o $@
+size: $(ELF)
+	$(SZ) $(ELF)
 
 clean:
 	rm -f $(OBJS) $(OBJS:.o=.d) $(ELF)

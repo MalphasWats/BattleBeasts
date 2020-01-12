@@ -1,13 +1,7 @@
-#include "samd21g18au.h"
+#include "samd21g18a.h"
 
 #define COL PORT_PB08
 #define ROW PORT_PA15
-
-/* These are missing from the io definitions, I don't know why. */
-#define PORT_PB10                 (1ul << 10)
-#define PORT_PB11                 (1ul << 11)
-#define PORT_PB22                 (1ul << 22)
-#define PORT_PB23                 (1ul << 23)
 
 #define ALL_COLS PORT_PB03 | PORT_PB02 | PORT_PB09 | PORT_PB08 | PORT_PB22 | PORT_PB23 | PORT_PB11 | PORT_PB10
 #define ALL_ROWS PORT_PA15 | PORT_PA14 | PORT_PA13 | PORT_PA12 | PORT_PA08 | PORT_PA09 | PORT_PA10 | PORT_PA11
@@ -92,17 +86,17 @@ int main()
     uint32_t col = 0;
     uint8_t beast[8];
 
-    uint16_t timer = TIMER_INTERVAL;
+    uint16_t timer = 0;
 
     while(1)
     {
-        timer -= 1;
         if (timer == 0){
             timer = TIMER_INTERVAL;
             for(uint8_t i=0 ; i<8 ; i++)
                 beast[i] = 0;
             generate_beast(beast);
         }
+        timer -= 1;
 
         for (uint8_t r=0 ; r<8 ; r++) {
             REG_PORT_OUTCLR1 = ALL_COLS;
